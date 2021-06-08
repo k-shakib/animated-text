@@ -1,0 +1,82 @@
+.animate{
+    /* take it center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+
+
+}
+.animate h1{
+    
+
+    /* resize it */
+    font-size: 7.71rem;
+    font-weight: 900 ;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    
+    /* make it animated  */
+    color: rgba(0, 0, 0, 0.116);
+    background-image: url(https://media.giphy.com/media/xT1XGZndeDLlWvSDaU/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    background-clip: text!important;
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text !important;
+}
+.animate pre{
+    font-size: 5rem;
+    text-align: right;
+    text-transform: lowercase;
+}
+
+
+
+/* responsive code goes here */
+
+
+@media only screen and (max-width: 1024px){
+    .animate h1{
+        font-size: 7rem;
+    }
+    .animate pre{
+        font-size: 4.5rem;
+    }
+}
+@media only screen and (max-width: 930px){
+    .animate h1{
+        font-size: 6.3rem;
+    }
+    .animate pre{
+        font-size: 4.1rem;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .animate h1{
+        font-size: 5.77rem;
+    }
+    .animate pre{
+        font-size: 3.8rem;
+    }
+}
+
+@media only screen and (max-width: 766px){
+    .animate h1{
+        font-size: 4.5rem;
+    }
+    .animate pre{
+        font-size: 3.2rem;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width:600px){
+    .animate h1{
+        font-size: 2rem;
+    }
+    .animate pre{
+        font-size: 1.5rem;
+    }
+}
